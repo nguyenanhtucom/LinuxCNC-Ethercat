@@ -1,4 +1,4 @@
-# Build Linux ethercat
+# Build linuxcnc-ethercat
 
 ## Download the ethercat master source files
 
