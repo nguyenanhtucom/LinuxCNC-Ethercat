@@ -58,7 +58,7 @@ $ halrun
 
     halcmd:loadrt motmod servo_period_nsec=1000000 num_joints=3
 
-    halcmd:loadusr -W lcec_conf /data/linuxcnc/hal/ethercat-conf.xml
+    halcmd:loadusr -W lcec_conf ethercat-conf.xml
 
     halcmd:loadrt lcec
 
