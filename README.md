@@ -35,10 +35,15 @@ sudo /etc/init.d/ethercat start
 ## Create file ethercat-conf.xml
 
 <masters>
+  
   <master idx="0" appTimePeriod="1000000" refClockSyncCycles="1000">
+  
     <slave idx="0" type="EK1100" name="D1"/>
+    
     <slave idx="1" type="EL2042" name="D2"/>
+  
   </master>
+
 </masters>
 
 ## Run halcmd
