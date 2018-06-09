@@ -6,6 +6,7 @@
     $ tar xjf usr.tar.gz
     $ sudo cp usr -rf /
 Or
+    
     Build IgH-EtherCAT-Master (https://github.com/nguyenanhtucom/IgH-EtherCAT-Master)
     
     Copy files to /usr/...
