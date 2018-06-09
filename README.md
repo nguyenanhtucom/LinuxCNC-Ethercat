@@ -1,14 +1,19 @@
 # Build linuxcnc-ethercat
 
-## Download the ethercat master source files
+# You need file .h, .a, .la, . . . for build
 
-$ wget http://www.etherlab.org/download/ethercat/ethercat-1.5.2.tar.bz2
-
-$ tar xjf ethercat-1.5.2.tar.bz2
-
-## Download the usr folder  
-
-$ sudo cp usr -rf /
+    Download the file usr.tar.gz 
+    $ tar xjf usr.tar.gz
+    $ sudo cp usr -rf /
+Or
+    Build IgH-EtherCAT-Master
+    $ cd ethercat-1.5.2
+    $ sudo cp include/ecrt.h  /usr/include
+    $ sudo cp include/ectty.h  /usr/include
+    $ sudo cp lib/.libs/libethercat.la /usr/lib
+    $ sudo cp lib/.libs/libethercat.a /usr/lib
+    $ sudo cp include/ecrt.h  /usr/realtime-3.4-9-rtai-686-pae/include
+    $ sudo cp Module.symvers  /usr/realtime-3.4-9-rtai-686-pae/modules/ethercat
 
 ## Download the linux-ethercat source files
 
