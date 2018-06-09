@@ -7,7 +7,7 @@
     $ sudo cp usr -rf /
 Or
 
-    Build IgH-EtherCAT-Master
+    Build IgH-EtherCAT-Master (https://github.com/nguyenanhtucom/IgH-EtherCAT-Master)
 
     $ cd ethercat-1.5.2
     $ sudo cp include/ecrt.h  /usr/include
