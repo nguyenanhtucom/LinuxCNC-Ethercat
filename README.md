@@ -10,7 +10,7 @@ $ tar xjf ethercat-1.5.2.tar.bz2
 
 $ sudo cp usr -rf /
 
-## Download the Linux ethercat source files
+## Download the linux-ethercat source files
 
 $ git clone https://github.com/sittner/linuxcnc-ethercat.git linuxcnc-ethercat
 
