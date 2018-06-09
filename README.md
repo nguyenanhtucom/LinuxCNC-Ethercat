@@ -45,13 +45,13 @@ sudo /etc/init.d/ethercat start
 
 $ halrun
 
-$ halcmd:loadrt trivkins
+    halcmd:loadrt trivkins
 
-$ halcmd:loadrt motmod servo_period_nsec=1000000 num_joints=3
+    halcmd:loadrt motmod servo_period_nsec=1000000 num_joints=3
 
-$ halcmd:loadusr -W lcec_conf /data/linuxcnc/hal/ethercat-conf.xml
+    halcmd:loadusr -W lcec_conf /data/linuxcnc/hal/ethercat-conf.xml
 
-$ halcmd:loadrt lcec
+    halcmd:loadrt lcec
 
 
 
