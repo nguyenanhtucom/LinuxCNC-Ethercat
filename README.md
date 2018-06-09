@@ -1,14 +1,13 @@
 # Build linuxcnc-ethercat
 
-# You need file .h, .a, .la, . . . for build
+# You need file .h, .a, .la, . . . in /usr folder
 
     Download the file usr.tar.gz 
     $ tar xjf usr.tar.gz
     $ sudo cp usr -rf /
 Or
-
     Build IgH-EtherCAT-Master (https://github.com/nguyenanhtucom/IgH-EtherCAT-Master)
-
+    Copy files to /usr/...
     $ cd ethercat-1.5.2
     $ sudo cp include/ecrt.h  /usr/include
     $ sudo cp include/ectty.h  /usr/include
